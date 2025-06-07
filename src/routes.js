@@ -10,6 +10,13 @@ const routes = [
     method: 'POST',
     path: '/login',
     handler: usersHandler.login,
+  },
+  {
+    method: 'GET',
+    path: '/',
+    handler: () => {
+      return { message: 'Halo dari backend di Railway!' };
+    }
   }
 ];
 
