@@ -1,4 +1,4 @@
-const pool = require('./utils/database');
+const pool = require('./database');
 
 (async () => {
   let conn;
@@ -7,7 +7,7 @@ const pool = require('./utils/database');
 
     await conn.query(`
       CREATE TABLE IF NOT EXISTS users (
-        id INT AUTO_INCREMENT PRIMARY KEY,
+        id VARCHAR(50) PRIMARY KEY,
         name VARCHAR(100) NOT NULL,
         email VARCHAR(100) UNIQUE NOT NULL,
         password VARCHAR(255) NOT NULL,
@@ -17,9 +17,9 @@ const pool = require('./utils/database');
 
     await conn.query(`
       CREATE TABLE IF NOT EXISTS practice_sessions (
-        id INT AUTO_INCREMENT PRIMARY KEY,
+        id VARCHAR(50) PRIMARY KEY,
         correct_count INT DEFAULT 0,
-        user_id INT,
+        user_id VARCHAR(50),
         started_at DATETIME,
         submitted_at DATETIME,
         section ENUM('reading', 'structure', 'listening'),
@@ -29,8 +29,8 @@ const pool = require('./utils/database');
 
     await conn.query(`
       CREATE TABLE IF NOT EXISTS reccomendations (
-        id INT AUTO_INCREMENT PRIMARY KEY,
-        session_id INT,
+        id VARCHAR(50) PRIMARY KEY,
+        session_id VARCHAR(50),
         reccomendation TEXT,
         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
         FOREIGN KEY (session_id) REFERENCES practice_sessions(id) ON DELETE CASCADE
@@ -39,9 +39,9 @@ const pool = require('./utils/database');
 
     await conn.query(`
       CREATE TABLE IF NOT EXISTS user_answer (
-        id INT AUTO_INCREMENT PRIMARY KEY,
-        session_id INT,
-        question_id INT,
+        id VARCHAR(50) PRIMARY KEY,
+        session_id VARCHAR(50),
+        question_id VARCHAR(50),
         choice_label VARCHAR(10),
         is_correct BOOLEAN,
         FOREIGN KEY (session_id) REFERENCES practice_sessions(id) ON DELETE CASCADE
