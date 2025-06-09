@@ -1,4 +1,6 @@
+const practiceHandler = require('./handlers/practice');
 const usersHandler = require('./handlers/users');
+const authMiddleware = require('./middlewares/authorization');
 
 const routes = [
   {
@@ -21,6 +23,30 @@ const routes = [
     path: '/',
     handler: () => ({ message: 'Halo dari backend di Railway!' }),
   },
+  {
+    method: 'POST',
+    path: '/practice/{section}',
+    handler: practiceHandler.startPracticeSession,
+    options: {
+      pre: [authMiddleware],
+    }
+  },
+  {
+    method: 'POST',
+    path: '/answer',
+    options: {
+      pre: [authMiddleware],
+    },
+    handler: practiceHandler.submitAnswer,
+  },
+  {
+    method: 'POST',
+    path: '/practice/submit-session',
+    options: {
+      pre: [authMiddleware],
+    },
+    handler: practiceHandler.submitSession,
+  }
 ];
 
 module.exports = routes;
