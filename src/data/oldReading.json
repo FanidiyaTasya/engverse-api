@@ -1,0 +1,117 @@
+{
+  "section": "reading",
+  "passage_title": "Social Stress Transmission",
+  "passage": "Do you know what leads you to feel stress? Odds are that at least one cause (and probably more than one) entered your mind. But if I were to ask you about the stress that the people in your social world feel, would it occur to you as a factor in your own stress? Perhaps it would, depending on your circumstances. But probably not. And yet, this is exactly what a group of researchers decided to investigate. They cited research that stress is conveyed between two people or among a more limited group of folks.\n\nIn this longitudinal study, they tracked the stress of a large group of graduate students over the course of six months. The investigators measured various aspects of people's lives, including their degree of stress along with three different personality attributes. Specifically, they asked about people's neuroticism (a tendency to feel more upset and have more fluctuations in how they feel), their conscientiousness (an inclination to engage in self-control and careful consideration, and to think ahead and come up with solutions to problems), and their locus of control (how much someone views themselves or events around them as determining the result of a situation).\n\nThe researchers found that the stress an individual experienced was connected to the extent of stress in their social world, and that certain factors appeared to play a role. First, they found that a person's stress was more apt to fall in line with the stress of those in their social sphere when the stress among the people in that sphere was comparable (as opposed to more diverse). Second, they found that there was a weaker tie between a person's stress and the magnitude of stress in their social life if that person had a less neuroticism, more conscientiousness, and an internal locus of control.\n\nAlthough the research team noted that it's not entirely clear why the stress in a person's social world is linked to their own stress, they highlighted two possibilities. One is that humans tend to draw from others' reactions to try to grasp a situation better. Another is that we tend to observe how other people are responding to help us calibrate the most suitable way of reacting so we can socially fit in. As the researchers rightly pointed out, the study merits being repeated to understand whether the results apply to different groups of people, such as individuals who are older (the average age in this study was 28).\n\nDespite the lingering questions this study couldn't address, the researchers noted that people who feel more stress are likely to connect with others who have the same stress level, and then they feel more stress as they socially engage with those who are also feeling a lot of stress. Accordingly, the research team mentioned the potential value of future programs that could help people learn new coping strategies to reduce the odds of stress being transferred, as well as programs that could enable people with different stress levels to connect.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the main topic of the passage?",
+      "options": {
+        "A": "The cause of stress",
+        "B": "The impact of stress",
+        "C": "Problems caused by stress",
+        "D": "The definition of stress"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 2,
+      "question": "It is implied in paragraph 2 that…",
+      "options": {
+        "A": "The research was conducted in a short time",
+        "B": "Only graduate students experience stress",
+        "C": "Stress is aligned with the social environment",
+        "D": "A large group tends to bring along stress"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 3,
+      "question": "The word “longitudinal study” in line 8 is closest in meaning to…",
+      "options": {
+        "A": "Horizontal",
+        "B": "Long-term",
+        "C": "Side-kick",
+        "D": "Immediate"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 4,
+      "question": "According to paragraph 2, personality attributes that are needed for the research are…",
+      "options": {
+        "A": "conscientiousness, stress, and self-control",
+        "B": "stress, locus of control, and neuroticism",
+        "C": "self-control, conscientiousness, and locus of control",
+        "D": "neuroticism, conscientiousness, and locus of control"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 5,
+      "question": "The word “apt” in line 19 is closest in meaning to…",
+      "options": {
+        "A": "slow",
+        "B": "unlikely",
+        "C": "fitting",
+        "D": "far"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 6,
+      "question": "According to paragraph 3, which of the following is NOT true about stress?",
+      "options": {
+        "A": "A person's stress is connected to their social world",
+        "B": "There are personality tributes that affect stress",
+        "C": "Social sphere has no impact on someone's stress",
+        "D": "Stress among people in the same social sphere is comparable to one another"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 7,
+      "question": "The word “their” in line 23 refers to…",
+      "options": {
+        "A": "The researchers",
+        "B": "All of the graduate students",
+        "C": "Someone who rarely gets stress",
+        "D": "An individual who experienced stress"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 8,
+      "question": "What can be inferred about the locus of control?",
+      "options": {
+        "A": "It is a perception of the social world",
+        "B": "It is the only reason for someone to feel stress",
+        "C": "Perception can be the reason for people feel stress",
+        "D": "Balancing the social world affects neuroticism and conscientiousness"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 9,
+      "question": "According to the passage, why is the social world related to someone's stress?",
+      "options": {
+        "A": "Because it is human nature to want to fit in",
+        "B": "Because people tend to take something lightly",
+        "C": "Because others' reactions are what makes people want to be likable",
+        "D": "Because it shows which social sphere they are in"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 10,
+      "question": "The word “merits” in line 30 is closest in meaning to…",
+      "options": {
+        "A": "inferiority",
+        "B": "quality",
+        "C": "fault",
+        "D": "disadvantage"
+      },
+      "answer": "C"
+    }
+  ]
+}

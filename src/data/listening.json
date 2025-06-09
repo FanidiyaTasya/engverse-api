@@ -1,0 +1,185 @@
+{
+  "section": "listening",
+  "questions": [
+    {
+      "id": 1,
+      "audio": "audio/partA_q1.mp3",
+      "question": "What does the man mean?",
+      "options": {
+        "A": "It is rare for a book to be printed.",
+        "B": "He's been looking for the book for years.",
+        "C": "The book was written many years ago.",
+        "D": "The book is no longer in most stores."
+      },
+      "answer": "D"
+    },
+    {
+      "id": 2,
+      "audio": "audio/partA_q2.mp3",
+      "question": "What does the woman mean?",
+      "options": {
+        "A": "It was a bad day for a meeting.",
+        "B": "The meeting was not too bad.",
+        "C": "It was her worst meeting ever.",
+        "D": "The manager didn't come to the meeting."
+      },
+      "answer": "B"
+    },
+    {
+      "id": 3,
+      "audio": "audio/partA_q3.mp3",
+      "question": "What does the man mean?",
+      "options": {
+        "A": "He plans on eating a lot.",
+        "B": "He thinks he ate a lot.",
+        "C": "He didn't eat much last night.",
+        "D": "He ate too much on lunch."
+      },
+      "answer": "B"
+    },
+    {
+      "id": 4,
+      "audio": "audio/partA_q4.mp3",
+      "question": "What does the woman mean?",
+      "options": {
+        "A": "Chris took a week off on his doctor's order.",
+        "B": "Chris is on vacation for a week.",
+        "C": "The doctor told Chris to go to work.",
+        "D": "The doctor decided to take some time off from work."
+      },
+      "answer": "A"
+    },
+    {
+      "id": 5,
+      "audio": "audio/partA_q5.mp3",
+      "question": "What does the woman mean?",
+      "options": {
+        "A": "Sue and Jonathan were not into science fiction.",
+        "B": "Neither Sue nor Jonathan likes to watch movies.",
+        "C": "Sue tried to like the movie, but Jonathan didn't.",
+        "D": "Jonathan likes science fiction as much as Sue likes it."
+      },
+      "answer": "A"
+    },
+    {
+      "id": 6,
+      "audio": "audio/partA_q6.mp3",
+      "question": "What does the man mean?",
+      "options": {
+        "A": "He is feeling terrific.",
+        "B": "He feels better today.",
+        "C": "He felt a lot worse today.",
+        "D": "He is not feeling well today."
+      },
+      "answer": "B"
+    },
+    {
+      "id": 7,
+      "audio": "audio/partA_q7.mp3",
+      "question": "Where does the conversation probably take place?",
+      "options": {
+        "A": "In a restaurant.",
+        "B": "In a bakery.",
+        "C": "On a farm.",
+        "D": "On a store."
+      },
+      "answer": "D"
+    },
+    {
+      "id": 8,
+      "audio": "audio/partA_q8.mp3",
+      "question": "What is the woman saying to the man?",
+      "options": {
+        "A": "She just wants to know the name of the whole band.",
+        "B": "She doesn't know about the band at all.",
+        "C": "Emily and the woman are fans of the band.",
+        "D": "She is not a fan, but Emily made her know things about the band."
+      },
+      "answer": "D"
+    },
+    {
+      "id": 9,
+      "audio": "audio/partA_q9.mp3",
+      "question": "What does the man mean?",
+      "options": {
+        "A": "It was hard because the woman didn't study.",
+        "B": "It was the worst exam he ever had.",
+        "C": "It should have been easy if they study.",
+        "D": "They hope it is not that easy."
+      },
+      "answer": "B"
+    },
+    {
+      "id": 10,
+      "audio": "audio/partA_q10.mp3",
+      "question": "What does the woman imply?",
+      "options": {
+        "A": "The price of the rent is ridiculously expensive.",
+        "B": "She believed the house' rent is supposed to be expensive.",
+        "C": "There's no way people are willing to pay that much.",
+        "D": "She didn't catch the id."
+      },
+      "answer": "B"
+    },
+    {
+      "id": 11,
+      "audio": "audio/partA_q11.mp3",
+      "question": "What does the man mean?",
+      "options": {
+        "A": "He thought Professor Watson was not coming.",
+        "B": "He didn't mind if Professor Watson was not coming.",
+        "C": "He didn't expect Professor Watson to resign.",
+        "D": "He knew Professor Watson is going to resign."
+      },
+      "answer": "C"
+    },
+    {
+      "id": 12,
+      "audio": "audio/partA_q12.mp3",
+      "question": "What will the woman probably do?",
+      "options": {
+        "A": "She is going to the library.",
+        "B": "She is going home immediately.",
+        "C": "She is up to the man's idea.",
+        "D": "She is going to beat someone up in the library."
+      },
+      "answer": "A"
+    },
+    {
+      "id": 13,
+      "audio": "audio/partA_q13.mp3",
+      "question": "What does the man mean?",
+      "options": {
+        "A": "He thinks the building was better before renovation.",
+        "B": "He has the same opinion as the woman.",
+        "C": "His opinion differs from the woman's.",
+        "D": "He suggests being careful inside the renovated building."
+      },
+      "answer": "B"
+    },
+    {
+      "id": 14,
+      "audio": "audio/partA_q14.mp3",
+      "question": "What does the man mean?",
+      "options": {
+        "A": "Jonathan tried to get tickets, but Chris didn't.",
+        "B": "Neither Jonathan nor Chris wanted to go to the concert.",
+        "C": "Mark got both tickets, but Chris didn't.",
+        "D": "Both were unable to obtain tickets."
+      },
+      "answer": "D"
+    },
+    {
+      "id": 15,
+      "audio": "audio/partA_q15.mp3",
+      "question": "What does the man imply?",
+      "options": {
+        "A": "The woman is brilliant.",
+        "B": "She is as wise as Shakespeare.",
+        "C": "Her question is difficult.",
+        "D": "He is not amused by her answer."
+      },
+      "answer": "D"
+    }
+  ]
+}

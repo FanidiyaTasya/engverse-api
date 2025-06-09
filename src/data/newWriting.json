@@ -1,0 +1,1809 @@
+{
+  "section": "structure_and_written",
+  "questions": [
+    {
+      "id": 1,
+      "question": "________ raining when we left the building.",
+      "options": {
+        "A": "It was",
+        "B": "There was",
+        "C": "It is",
+        "D": "There is"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 2,
+      "question": "Not only him, but also his friends ______ late.",
+      "options": {
+        "A": "is",
+        "B": "are",
+        "C": "was",
+        "D": "be"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 3,
+      "question": "Each of the students ______ a schedule.",
+      "options": {
+        "A": "has",
+        "B": "have",
+        "C": "having",
+        "D": "to have"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 4,
+      "question": "The teacher made the students ______ quiet.",
+      "options": {
+        "A": "be",
+        "B": "to be",
+        "C": "being",
+        "D": "been"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 5,
+      "question": "She said that she ______ to the party.",
+      "options": {
+        "A": "will go",
+        "B": "go",
+        "C": "would go",
+        "D": "goes"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 6,
+      "question": "John as well as his brothers ______ going to the game tonight.",
+      "options": {
+        "A": "are",
+        "B": "is",
+        "C": "was",
+        "D": "have"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 7,
+      "question": "The book or the pens ______ on the table.",
+      "options": {
+        "A": "is",
+        "B": "am",
+        "C": "are",
+        "D": "was"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 8,
+      "question": "Neither the teacher nor the students ______ present in the room.",
+      "options": {
+        "A": "was",
+        "B": "were",
+        "C": "has",
+        "D": "have"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 9,
+      "question": "He suggested that she ______ the doctor.",
+      "options": {
+        "A": "see",
+        "B": "sees",
+        "C": "saw",
+        "D": "seeing"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 10,
+      "question": " I ______ you, If I had known earlier",
+      "options": {
+        "A": "would help",
+        "B": "helped",
+        "C": "would have helped",
+        "D": "will help"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 11,
+      "question": "They asked me where ______.",
+      "options": {
+        "A": "I live",
+        "B": "I lived",
+        "C": "I am living",
+        "D": "I has lived"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 12,
+      "question": "The man ______ here since Monday.",
+      "options": {
+        "A": "has been",
+        "B": "have been",
+        "C": "was",
+        "D": "were"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 13,
+      "question": "Hard work and discipline ______ the key to success.",
+      "options": {
+        "A": "is",
+        "B": "are",
+        "C": "was",
+        "D": "has"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 14,
+      "question": "One of the boys who ______ in my class was absent today.",
+      "options": {
+        "A": "studies",
+        "B": "is study",
+        "C": "study",
+        "D": "studies"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 15,
+      "question": " By the time we arrived, the movie ______.",
+      "options": {
+        "A": "had started",
+        "B": "started",
+        "C": "was starting",
+        "D": "has started"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 16,
+      "question": "She enjoys ______ books more than watching TV.",
+      "options": {
+        "A": "reading",
+        "B": "read",
+        "C": "reads",
+        "D": "to read"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 17,
+      "question": "He was accused of ______ the rules.",
+      "options": {
+        "A": "break",
+        "B": "breaking",
+        "C": "broke",
+        "D": "broken"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 18,
+      "question": "The children were made ______ quietly.",
+      "options": {
+        "A": "to sit",
+        "B": "sit",
+        "C": "sitting",
+        "D": "sat"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 19,
+      "question": "This is the town ______ I was born.",
+      "options": {
+        "A": "which",
+        "B": "in which",
+        "C": "where",
+        "D": "B and C"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 20,
+      "question": "She is the girl ______ won the competition.",
+      "options": {
+        "A": "who",
+        "B": "whom",
+        "C": "whose",
+        "D": "which"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 21,
+      "question": "________ did you give the message?",
+      "options": {
+        "A": "Who",
+        "B": "Whom",
+        "C": "Whose",
+        "D": "What"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 22,
+      "question": "There is no one here ______ English.",
+      "options": {
+        "A": "who speak",
+        "B": "whom speak",
+        "C": "that speaks",
+        "D": "which speaks"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 23,
+      "question": "The car  ______ tire was flat broke down.",
+      "options": {
+        "A": "which",
+        "B": "whose",
+        "C": "where",
+        "D": "whom"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 24,
+      "question": "She bought a dress ______ looked beautiful.",
+      "options": {
+        "A": "who",
+        "B": "whom",
+        "C": "that",
+        "D": "whose"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 25,
+      "question": "I still remember the day ______ I first met her.",
+      "options": {
+        "A": "when",
+        "B": "where",
+        "C": "why",
+        "D": "how"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 26,
+      "question": "The house ______ we visited was huge.",
+      "options": {
+        "A": "who",
+        "B": "whom",
+        "C": "whose",
+        "D": "that"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 27,
+      "question": "He gave me the book ______ he promised.",
+      "options": {
+        "A": "what",
+        "B": "which",
+        "C": "that",
+        "D": "both B and C"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 28,
+      "question": "The city ______ he lives in is famous for its museums.",
+      "options": {
+        "A": "who",
+        "B": "whom",
+        "C": "whose",
+        "D": "which"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 29,
+      "question": "This is the reason ______ he left early.",
+      "options": {
+        "A": "why",
+        "B": "which",
+        "C": "who",
+        "D": "whom"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 30,
+      "question": "She works in a company ______ makes computers.",
+      "options": {
+        "A": "which",
+        "B": "who",
+        "C": "whose",
+        "D": "whom"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 31,
+      "question": "He wants to know ______ you are coming.",
+      "options": {
+        "A": "if",
+        "B": "whether",
+        "C": "why",
+        "D": "all of the above"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 32,
+      "question": "Please tell me ______ you need help.",
+      "options": {
+        "A": "if",
+        "B": "whether",
+        "C": "why",
+        "D": "all of the above"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 33,
+      "question": "He asked me ______ I would go to the party.",
+      "options": {
+        "A": "if",
+        "B": "whether",
+        "C": "that",
+        "D": "any of the above"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 34,
+      "question": "They discussed ______ they should invest in stocks.",
+      "options": {
+        "A": "what",
+        "B": "that",
+        "C": "which of",
+        "D": "all of the above"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 35,
+      "question": "Do you know ______ this machine works?",
+      "options": {
+        "A": "how",
+        "B": "what",
+        "C": "which",
+        "D": "whether"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 36,
+      "question": "Can you explain ______ this function operates?",
+      "options": {
+        "A": "how",
+        "B": "what",
+        "C": "which",
+        "D": "why"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 37,
+      "question": "We wonder ______ he didn't come to the meeting.",
+      "options": {
+        "A": "why",
+        "B": "how",
+        "C": "what",
+        "D": "whether"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 38,
+      "question": "She asked me ______ it was necessary to attend.",
+      "options": {
+        "A": "weather",
+        "B": "that",
+        "C": "why",
+        "D": "what"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 39,
+      "question": "He forgot ______ he put his keys.",
+      "options": {
+        "A": "where",
+        "B": "which",
+        "C": "why",
+        "D": "how"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 40,
+      "question": "She asked ______ we could start the meeting early.",
+      "options": {
+        "A": "if",
+        "B": "that",
+        "C": "why",
+        "D": "who"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 41,
+      "question": "He told me ______ important the task was.",
+      "options": {
+        "A": "how",
+        "B": "what",
+        "C": "which",
+        "D": "whether"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 42,
+      "question": "________ you study hard,  you will pass the exam. ",
+      "options": {
+        "A": "If",
+        "B": "Unless",
+        "C": "Although",
+        "D": "Because"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 43,
+      "question": "You will fail the test ______ you study hard.",
+      "options": {
+        "A": "if",
+        "B": "unless",
+        "C": "although",
+        "D": "because"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 44,
+      "question": "we went out,  ________ it was raining..",
+      "options": {
+        "A": "If",
+        "B": "Unless",
+        "C": "Although",
+        "D": "Because"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 45,
+      "question": " you should rest, ________ you are tired.",
+      "options": {
+        "A": "Because",
+        "B": "Unless",
+        "C": "Although",
+        "D": "If"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 46,
+      "question": "She studied all night ______ she could pass the exam.",
+      "options": {
+        "A": "so that",
+        "B": "so",
+        "C": "for",
+        "D": "because"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 47,
+      "question": "He ran fast ______ he could catch the bus.",
+      "options": {
+        "A": "so that",
+        "B": "so",
+        "C": "for",
+        "D": "because"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 48,
+      "question": " he went to work, ________ he was sick.",
+      "options": {
+        "A": "Although",
+        "B": "Unless",
+        "C": "Because",
+        "D": "If"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 49,
+      "question": "He stayed home ______ it was snowing heavily.",
+      "options": {
+        "A": "because",
+        "B": "although",
+        "C": "unless",
+        "D": "so"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 50,
+      "question": " you must work hard, ________ you want to succeed.",
+      "options": {
+        "A": "If",
+        "B": "Unless",
+        "C": "Although",
+        "D": "Because"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 51,
+      "question": " ________ working hard,  he also helps others.",
+      "options": {
+        "A": "In addition to",
+        "B": "Besides",
+        "C": "Both A and B",
+        "D": "However"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 52,
+      "question": " ________ being smart,  she is also very kind.",
+      "options": {
+        "A": "Besides",
+        "B": "In addition to",
+        "C": "Both A and B",
+        "D": "However"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 53,
+      "question": "________ the rain,  the event continued as planned.",
+      "options": {
+        "A": "Despite",
+        "B": "Although",
+        "C": "Because",
+        "D": "So"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 54,
+      "question": " ________ being tired  he finished the project.",
+      "options": {
+        "A": "Despite",
+        "B": "Even though",
+        "C": "in order to",
+        "D": "As a result of"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 55,
+      "question": "He succeeded ______ many difficulties.",
+      "options": {
+        "A": "despite",
+        "B": "although",
+        "C": "because",
+        "D": "if"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 56,
+      "question": "She continued talking ______ I asked her to stop.",
+      "options": {
+        "A": "even though",
+        "B": "despite",
+        "C": "instead of",
+        "D": "as if"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 57,
+      "question": "He acted ______ he knew everything.",
+      "options": {
+        "A": "like",
+        "B": "as if",
+        "C": "as though",
+        "D": "both B and C"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 58,
+      "question": "This is the most interesting book ______ I've read.",
+      "options": {
+        "A": "which",
+        "B": "that",
+        "C": "who",
+        "D": "whom"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 59,
+      "question": "She is the fastest runner ______ our school.",
+      "options": {
+        "A": "in",
+        "B": "at",
+        "C": "on",
+        "D": "of"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 60,
+      "question": "The more you practice ______ you will improve.",
+      "options": {
+        "A": "the much",
+        "B": "the more",
+        "C": "most",
+        "D": "much"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 61,
+      "question": "The sooner we start  ______ we will arrive.",
+      "options": {
+        "A": "the soonest",
+        "B": "the earliest",
+        "C": "the sooner",
+        "D": "the later"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 62,
+      "question": "He is not only smart ______ friendly.",
+      "options": {
+        "A": "but also",
+        "B": "but",
+        "C": "also",
+        "D": "and"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 63,
+      "question": "She is both talented ______ hardworking.",
+      "options": {
+        "A": "and",
+        "B": "or",
+        "C": "not only",
+        "D": "but also"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 64,
+      "question": "He neither spoke ______ smiled during the meeting.",
+      "options": {
+        "A": "nor",
+        "B": "or",
+        "C": "not",
+        "D": "also"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 65,
+      "question": "Not only did she sing ______ she danced too.",
+      "options": {
+        "A": "but also",
+        "B": "also",
+        "C": "and",
+        "D": "both A and C"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 66,
+      "question": "He both sings ______ plays the guitar.",
+      "options": {
+        "A": "and",
+        "B": "or",
+        "C": "nor",
+        "D": "not only"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 67,
+      "question": "She neither eats meat ______ drinks alcohol.",
+      "options": {
+        "A": "nor",
+        "B": "or",
+        "C": "also",
+        "D": "and"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 68,
+      "question": "Not only the manager but also the employees ______ responsible.",
+      "options": {
+        "A": "is",
+        "B": "are",
+        "C": "was",
+        "D": "has"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 69,
+      "question": "Neither the coach nor the players ______ ready.",
+      "options": {
+        "A": "is",
+        "B": "are",
+        "C": "was",
+        "D": "has"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 70,
+      "question": "Either the director or his assistants ______ coming.",
+      "options": {
+        "A": "is",
+        "B": "are",
+        "C": "was",
+        "D": "has"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 71,
+      "question": "Both the teacher and the student ______ satisfied.",
+      "options": {
+        "A": "is",
+        "B": "are",
+        "C": "was",
+        "D": "has"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 72,
+      "question": "Each of the participants ______ given a certificate.",
+      "options": {
+        "A": "was",
+        "B": "were",
+        "C": "has",
+        "D": "have"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 73,
+      "question": "Everyone in the group ______ agreed with the decision.",
+      "options": {
+        "A": "was",
+        "B": "were",
+        "C": "has",
+        "D": "have"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 74,
+      "question": "Anyone who ______ late will be penalized.",
+      "options": {
+        "A": "arrives",
+        "B": "arrive",
+        "C": "will arrive",
+        "D": "has arrived"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 75,
+      "question": "Several students ______ missing from class yesterday.",
+      "options": {
+        "A": "was",
+        "B": "were",
+        "C": "has",
+        "D": "have"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 76,
+      "question": "Most of the cake ______ eaten already.",
+      "options": {
+        "A": "was",
+        "B": "were",
+        "C": "has",
+        "D": "have"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 77,
+      "question": "Half of the apples ______ rotten.",
+      "options": {
+        "A": "was",
+        "B": "were",
+        "C": "has",
+        "D": "have"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 78,
+      "question": "The id of errors ______ increasing.",
+      "options": {
+        "A": "was",
+        "B": "were",
+        "C": "has",
+        "D": "have"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 79,
+      "question": "The majority of the work ______ completed.",
+      "options": {
+        "A": "was",
+        "B": "were",
+        "C": "has",
+        "D": "have"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 80,
+      "question": "One third of the population ______ affected by the disease.",
+      "options": {
+        "A": "was",
+        "B": "were",
+        "C": "has",
+        "D": "have"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 81,
+      "question": "More than one person ______ injured in the accident.",
+      "options": {
+        "A": "was",
+        "B": "were",
+        "C": "has",
+        "D": "have"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 82,
+      "question": "Physics ______ my favorite subject in high school.",
+      "options": {
+        "A": "were",
+        "B": "are",
+        "C": "is",
+        "D": "has"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 83,
+      "question": "Politics ______ often a controversial topic.",
+      "options": {
+        "A": "was",
+        "B": "are",
+        "C": "is",
+        "D": "has"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 84,
+      "question": "Economics ______ a difficult subject for many students.",
+      "options": {
+        "A": "was",
+        "B": "are",
+        "C": "is",
+        "D": "has"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 85,
+      "question": "The news ______ shocking to everyone.",
+      "options": {
+        "A": "was",
+        "B": "are",
+        "C": "is",
+        "D": "has"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 86,
+      "question": "Mathematics ______ the language of science.",
+      "options": {
+        "A": "was",
+        "B": "are",
+        "C": "is",
+        "D": "has"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 87,
+      "question": "The team ______ arguing about the strategy.",
+      "options": {
+        "A": "was",
+        "B": "are",
+        "C": "is",
+        "D": "has"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 88,
+      "question": "The committee ______ discussing the proposal.",
+      "options": {
+        "A": "were",
+        "B": "are",
+        "C": "is",
+        "D": "has"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 89,
+      "question": "The public ______ divided on the issue.",
+      "options": {
+        "A": "was",
+        "B": "are",
+        "C": "is",
+        "D": "has"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 90,
+      "question": "The audience ______ enjoying the performance.",
+      "options": {
+        "A": "was",
+        "B": "are",
+        "C": "is",
+        "D": "has"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 91,
+      "question": "The jury ______ reached a verdict.",
+      "options": {
+        "A": "has",
+        "B": "have",
+        "C": "was",
+        "D": "are"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 92,
+      "question": "The police ______ investigating the crime.",
+      "options": {
+        "A": "has",
+        "B": "have",
+        "C": "was",
+        "D": "are"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 93,
+      "question": "The staff ______ preparing for the conference.",
+      "options": {
+        "A": "has",
+        "B": "have",
+        "C": "was",
+        "D": "are"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 94,
+      "question": "The crew ______ repairing the ship.",
+      "options": {
+        "A": "has",
+        "B": "have",
+        "C": "was",
+        "D": "are"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 95,
+      "question": "The faculty ______ discussing curriculum changes.",
+      "options": {
+        "A": "has",
+        "B": "have",
+        "C": "was",
+        "D": "are"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 96,
+      "question": "The crowd ______ cheering loudly for the winner when the mayor gave the speech.",
+      "options": {
+        "A": "has",
+        "B": "have",
+        "C": "was",
+        "D": "are"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 97,
+      "question": "The gang ______ planning their next move since this morning.",
+      "options": {
+        "A": "has been",
+        "B": "have been",
+        "C": "was",
+        "D": "are"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 98,
+      "question": "The flock ______ flying south for the winter.",
+      "options": {
+        "A": "has",
+        "B": "have",
+        "C": "was",
+        "D": "are"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 99,
+      "question": "Every student need to bring their own laptop.",
+      "options": {
+        "A": "were",
+        "B": "need",
+        "C": "sing",
+        "D": "needs"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 100,
+      "question": "She can sings well and dance gracefully.",
+      "options": {
+        "A": "needs",
+        "B": "sings",
+        "C": "are",
+        "D": "sing"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 101,
+      "question": "There is several mistakes in your essay.",
+      "options": {
+        "A": "sing",
+        "B": "needs",
+        "C": "are",
+        "D": "is"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 102,
+      "question": "The students in the class was very talkative during the lecture.",
+      "options": {
+        "A": "was",
+        "B": "needs",
+        "C": "were",
+        "D": "doesn't"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 103,
+      "question": "The boy with all his toys are under the bed.",
+      "options": {
+        "A": "with",
+        "B": "all",
+        "C": "are",
+        "D": "the bed"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 104,
+      "question": "We has already discussed the plan for the project.",
+      "options": {
+        "A": "has",
+        "B": "discussed",
+        "C": "plan",
+        "D": "project"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 105,
+      "question": "My brother and sister goes to different schools.",
+      "options": {
+        "A": "and",
+        "B": "goes",
+        "C": "different",
+        "D": "schools"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 106,
+      "question": "Although he was tired  but he continued working.",
+      "options": {
+        "A": "he",
+        "B": "was",
+        "C": "but",
+        "D": "continued"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 107,
+      "question": "There are less people in the office today than yesterday.",
+      "options": {
+        "A": "are",
+        "B": "less",
+        "C": "yesterday",
+        "D": "office"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 108,
+      "question": "The id of errors in this report are surprising.",
+      "options": {
+        "A": "id",
+        "B": "errors",
+        "C": "this",
+        "D": "are"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 109,
+      "question": "She enjoy reading novels and write poems.",
+      "options": {
+        "A": "enjoy",
+        "B": "reading",
+        "C": "novels",
+        "D": "write"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 110,
+      "question": "He have finished his homework before dinner.",
+      "options": {
+        "A": "have",
+        "B": "finished",
+        "C": "homework",
+        "D": "before"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 111,
+      "question": "The data shows that the experiment was successful.",
+      "options": {
+        "A": "data",
+        "B": "shows",
+        "C": "experiment",
+        "D": "successful"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 112,
+      "question": "Everyone are responsible for completing their task.",
+      "options": {
+        "A": "are",
+        "B": "responsible",
+        "C": "task",
+        "D": "their"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 113,
+      "question": "This is one of the best movie I have ever seen.",
+      "options": {
+        "A": "one",
+        "B": "best",
+        "C": "movie",
+        "D": "seen"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 114,
+      "question": "She doesn't likes spicy food because it hurt her stomach.",
+      "options": {
+        "A": "likes",
+        "B": "because",
+        "C": "it",
+        "D": "hurt"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 115,
+      "question": "The manager with his employees are attending a meeting.",
+      "options": {
+        "A": "manager",
+        "B": "with",
+        "C": "employees",
+        "D": "are"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 116,
+      "question": "The teacher ask the students to turn in they homework.",
+      "options": {
+        "A": "ask",
+        "B": "students",
+        "C": "turn",
+        "D": "they"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 117,
+      "question": "The box contain five books and ten pencils.",
+      "options": {
+        "A": "contain",
+        "B": "books",
+        "C": "and",
+        "D": "pencils"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 118,
+      "question": "Each of the applicants have to submit an application form.",
+      "options": {
+        "A": "each",
+        "B": "applicants",
+        "C": "have",
+        "D": "application"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 119,
+      "question": "She has being working on this project for two months.",
+      "options": {
+        "A": "has",
+        "B": "being",
+        "C": "working",
+        "D": "months"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 120,
+      "question": "The results varies depending on the method used.",
+      "options": {
+        "A": "results",
+        "B": "varies",
+        "C": "method",
+        "D": "used"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 121,
+      "question": "Neither of the options seem acceptable to the committee.",
+      "options": {
+        "A": "neither",
+        "B": "options",
+        "C": "seem",
+        "D": "committee"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 122,
+      "question": "He was suppose to arrive this morning.",
+      "options": {
+        "A": "was",
+        "B": "suppose",
+        "C": "arrive",
+        "D": "morning"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 123,
+      "question": "The company are planning to expand its operations overseas.",
+      "options": {
+        "A": "company",
+        "B": "are",
+        "C": "planning",
+        "D": "its"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 124,
+      "question": "We was surprised by the outcome of the negotiations.",
+      "options": {
+        "A": "we",
+        "B": "was",
+        "C": "surprised",
+        "D": "outcome"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 125,
+      "question": "The students looks confused after the explanation.",
+      "options": {
+        "A": "students",
+        "B": "looks",
+        "C": "confused",
+        "D": "explanation"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 126,
+      "question": "She spend too much time on social media last week.",
+      "options": {
+        "A": "spend",
+        "B": "much",
+        "C": "time",
+        "D": "last"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 127,
+      "question": "Many informations are available online nowadays.",
+      "options": {
+        "A": "informations",
+        "B": "are",
+        "C": "available",
+        "D": "online"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 128,
+      "question": "The committee disagree about the decision they made.",
+      "options": {
+        "A": "committee",
+        "B": "disagree",
+        "C": "decision",
+        "D": "they"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 129,
+      "question": "She no longer live in the same city as her parents.",
+      "options": {
+        "A": "no",
+        "B": "longer",
+        "C": "live",
+        "D": "parents"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 130,
+      "question": "The police has identified the cause of the accident.",
+      "options": {
+        "A": "police",
+        "B": "has",
+        "C": "identified",
+        "D": "accident"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 131,
+      "question": "He never listens to what I am saying to him.",
+      "options": {
+        "A": "never",
+        "B": "listens",
+        "C": "to",
+        "D": "saying"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 132,
+      "question": "The new policy effect everyone in the organization.",
+      "options": {
+        "A": "policy",
+        "B": "effect",
+        "C": "everyone",
+        "D": "organization"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 133,
+      "question": "The professors teaches both graduate and undergraduate courses",
+      "options": {
+        "A": "professor",
+        "B": "teaches",
+        "C": "graduate",
+        "D": "courses"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 134,
+      "question": "The cost of these products are expected to rise.",
+      "options": {
+        "A": "cost",
+        "B": "products",
+        "C": "are",
+        "D": "rise"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 135,
+      "question": "Each employee must complete their training by Friday.",
+      "options": {
+        "A": "employee",
+        "B": "complete",
+        "C": "their",
+        "D": "Friday"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 136,
+      "question": "The news about the merger were shocking to many investors.",
+      "options": {
+        "A": "news",
+        "B": "merger",
+        "C": "were",
+        "D": "investors"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 137,
+      "question": "The team are arguing about the strategy for the upcoming match.",
+      "options": {
+        "A": "team",
+        "B": "arguing",
+        "C": "strategy",
+        "D": "match"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 138,
+      "question": "The package containing the documents are missing.",
+      "options": {
+        "A": "containing",
+        "B": "documents",
+        "C": "are",
+        "D": "missing"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 139,
+      "question": "The quality of these items are not consistent.",
+      "options": {
+        "A": "quality",
+        "B": "items",
+        "C": "are",
+        "D": "consistent"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 140,
+      "question": "Neither the coach nor the players is ready for the game.",
+      "options": {
+        "A": "coach",
+        "B": "nor",
+        "C": "players",
+        "D": "is"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 141,
+      "question": "The majority of the cake have been eaten already.",
+      "options": {
+        "A": "majority",
+        "B": "cake",
+        "C": "have",
+        "D": "eaten"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 142,
+      "question": "The school provide free lunch to all students.",
+      "options": {
+        "A": "school",
+        "B": "provide",
+        "C": "free",
+        "D": "students"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 143,
+      "question": "The car needs washed before we leave tomorrow.",
+      "options": {
+        "A": "needs",
+        "B": "washed",
+        "C": "leave",
+        "D": "tomorrow"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 144,
+      "question": "He has less opportunities now than he did last year.",
+      "options": {
+        "A": "has",
+        "B": "opportunities",
+        "C": "less",
+        "D": "did"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 145,
+      "question": "The children was playing outside when it started to rain.",
+      "options": {
+        "A": "was",
+        "B": "playing",
+        "C": "outside",
+        "D": "rain"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 146,
+      "question": "The company are looking for new employees.",
+      "options": {
+        "A": "company",
+        "B": "are",
+        "C": "new",
+        "D": "employees"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 147,
+      "question": "The teacher give us a lot of homework yesterday.",
+      "options": {
+        "A": "give",
+        "B": "us",
+        "C": "a lot of",
+        "D": "yesterday"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 148,
+      "question": "The data shows that most people prefer coffee over tea.",
+      "options": {
+        "A": "data",
+        "B": "shows",
+        "C": "prefer",
+        "D": "coffee"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 149,
+      "question": "Each of the participants have signed the agreement.",
+      "options": {
+        "A": "each",
+        "B": "participants",
+        "C": "have",
+        "D": "agreement"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 150,
+      "question": "The group of students was arguing loudly in the hallway.",
+      "options": {
+        "A": "group",
+        "B": "students",
+        "C": "were",
+        "D": "arguing"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 151,
+      "question": "The manager with his assistant are presenting the proposal.",
+      "options": {
+        "A": "manager",
+        "B": "with",
+        "C": "assistant",
+        "D": "are"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 152,
+      "question": "The weather seems to changes every hour.",
+      "options": {
+        "A": "seems",
+        "B": "to changes",
+        "C": "every",
+        "D": "hour"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 153,
+      "question": "He was suppose to finish the report yesterday.",
+      "options": {
+        "A": "was",
+        "B": "suppose",
+        "C": "finish",
+        "D": "report"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 154,
+      "question": "The id of complaints have increased recently.",
+      "options": {
+        "A": "id",
+        "B": "complaints",
+        "C": "have",
+        "D": "recently"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 155,
+      "question": "Neither of the candidates are qualified for the position.",
+      "options": {
+        "A": "neither",
+        "B": "candidates",
+        "C": "are",
+        "D": "position"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 156,
+      "question": "The company are investing in new technology to improve efficiency.",
+      "options": {
+        "A": "company",
+        "B": "are",
+        "C": "investing",
+        "D": "improve"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 157,
+      "question": "The results of the survey is shown in the graph below.",
+      "options": {
+        "A": "results",
+        "B": "survey",
+        "C": "is",
+        "D": "below"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 158,
+      "question": "The library resources is available to all students.",
+      "options": {
+        "A": "resources",
+        "B": "is",
+        "C": "available",
+        "D": "students"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 159,
+      "question": "The list of names have not been finalized yet.",
+      "options": {
+        "A": "list",
+        "B": "names",
+        "C": "have",
+        "D": "finalized"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 160,
+      "question": "The manager require all employees to attend the meeting.",
+      "options": {
+        "A": "manager",
+        "B": "require",
+        "C": "employees",
+        "D": "meeting"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 161,
+      "question": "The problem with the program are still being investigated.",
+      "options": {
+        "A": "problem",
+        "B": "program",
+        "C": "are",
+        "D": "investigated"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 162,
+      "question": "The information in these files are confidential.",
+      "options": {
+        "A": "information",
+        "B": "files",
+        "C": "are",
+        "D": "confidential"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 163,
+      "question": "Each student must submit their project by next week.",
+      "options": {
+        "A": "student",
+        "B": "submit",
+        "C": "their",
+        "D": "project"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 164,
+      "question": "The university offer a wide variety of courses for international students.",
+      "options": {
+        "A": "university",
+        "B": "offer",
+        "C": "variety",
+        "D": "students"
+      },
+      "answer": "B"
+    }
+  ]
+}
