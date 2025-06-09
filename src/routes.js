@@ -12,12 +12,15 @@ const routes = [
     handler: usersHandler.login,
   },
   {
+    method: 'POST',
+    path: '/logout',
+    handler: usersHandler.logout,
+  },
+  {
     method: 'GET',
     path: '/',
-    handler: () => {
-      return { message: 'Halo dari backend di Railway!' };
-    }
-  }
+    handler: () => ({ message: 'Halo dari backend di Railway!' }),
+  },
 ];
 
 module.exports = routes;

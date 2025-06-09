@@ -43,40 +43,58 @@ const usersHandler = {
     try {
       const { email, password } = request.payload;
       const [users] = await pool.execute('SELECT * FROM users WHERE email = ?', [email]);
-
       if (users.length === 0) {
-        return h.response({
-          status: 'fail',
-          message: 'Email atau password salah',
-        }).code(401);
+        return h.response({ status: 'fail', message: 'Email atau password salah' }).code(401);
       }
 
       const user = users[0];
       const isPasswordCorrect = await bcrypt.compare(password, user.password);
-
       if (!isPasswordCorrect) {
-        return h.response({
-          status: 'fail',
-          message: 'Email atau password salah',
-        }).code(401);
+        return h.response({ status: 'fail', message: 'Email atau password salah' }).code(401);
       }
 
-      return {
+      const token = nanoid(64);
+      await pool.execute('UPDATE users SET token = ? WHERE id = ?', [token, user.id]);
+      return h.response({
         status: 'success',
         message: 'Login berhasil',
         data: {
-          id: user.id,
-          name: user.name,
-          email: user.email,
+          user: {
+            id: user.id,
+            name: user.name,
+            email: user.email,
+          },
+          token,
         },
-      };
+      });
     } catch (error) {
-      console.error('Login error:', error);
+      console.error(error);
+      return h.response({ status: 'error', message: 'Gagal login' }).code(500);
+    }
+  },
+  logout: async (request, h) => {
+    try {
+      const authHeader = request.headers.authorization;
+      if (!authHeader) {
+        return h.response({ status: 'fail', message: 'Token tidak ditemukan' }).code(401);
+      }
+
+      const token = authHeader.replace('Bearer ', '');
+
+      const [users] = await pool.execute('SELECT * FROM users WHERE token = ?', [token]);
+      if (users.length === 0) {
+        return h.response({ status: 'fail', message: 'Token tidak valid' }).code(401);
+      }
+
+      await pool.execute('UPDATE users SET token = NULL WHERE id = ?', [users[0].id]);
+
       return h.response({
-        status: 'error',
-        message: 'Gagal login',
-        detail: error.message,
-      }).code(500);
+        status: 'success',
+        message: 'Logout berhasil',
+      });
+    } catch (error) {
+      console.error(error);
+      return h.response({ status: 'error', message: 'Gagal logout' }).code(500);
     }
   }
 };
