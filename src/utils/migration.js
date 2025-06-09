@@ -11,6 +11,7 @@ const pool = require('./database');
         name VARCHAR(100) NOT NULL,
         email VARCHAR(100) UNIQUE NOT NULL,
         password VARCHAR(255) NOT NULL,
+        token VARCHAR(200) NULL,
         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
       )
     `);
@@ -18,17 +19,17 @@ const pool = require('./database');
     await conn.query(`
       CREATE TABLE IF NOT EXISTS practice_sessions (
         id VARCHAR(50) PRIMARY KEY,
-        correct_count INT DEFAULT 0,
         user_id VARCHAR(50),
         started_at DATETIME,
         submitted_at DATETIME,
         section ENUM('reading', 'structure', 'listening'),
+        correct_count INT DEFAULT 0,
         FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
       )
     `);
 
     await conn.query(`
-      CREATE TABLE IF NOT EXISTS reccomendations (
+      CREATE TABLE IF NOT EXISTS recomendations (
         id VARCHAR(50) PRIMARY KEY,
         session_id VARCHAR(50),
         reccomendation TEXT,
