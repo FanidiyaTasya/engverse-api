@@ -2,6 +2,8 @@ const pool = require('../utils/database');
 
 const authMiddleware = async (request, h) => {
   const authHeader = request.headers.authorization;
+  // console.log('Authorization Header:', request.headers.authorization);
+
   if (!authHeader) {
     return h.response({ status: 'fail', message: 'Token tidak ditemukan' }).code(401).takeover();
   }
