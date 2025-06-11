@@ -59,13 +59,12 @@ const usersHandler = {
         status: 'success',
         message: 'Login berhasil',
         data: {
+          token,
           user: {
             id: user.id,
             name: user.name,
             email: user.email,
-            token: user.token,
           },
-          token,
         },
       });
     } catch (error) {
