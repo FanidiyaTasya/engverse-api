@@ -9,7 +9,11 @@ const practiceHandler = {
     try {
       const { section } = request.params;
       const userId = request.user.id;
-      const questions = loadQuestions(section);
+
+      const allData = loadQuestions(section);
+      const allQuestions = allData.questions;
+      const questions = allQuestions.sort(() => Math.random() - 0.5).slice(0, 10);
+
       const sessionId = nanoid();
       const startedAt = new Date().toISOString().slice(0, 19).replace('T', ' ');
 
