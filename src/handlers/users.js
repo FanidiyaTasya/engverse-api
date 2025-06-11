@@ -63,6 +63,7 @@ const usersHandler = {
             id: user.id,
             name: user.name,
             email: user.email,
+            token: user.token,
           },
           token,
         },
