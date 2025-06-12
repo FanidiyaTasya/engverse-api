@@ -21,6 +21,7 @@ const pool = require('./database');
         id VARCHAR(50) PRIMARY KEY,
         user_id VARCHAR(50),
         started_at DATETIME,
+        question_ids TEXT,
         submitted_at DATETIME,
         section ENUM('reading', 'structure', 'listening'),
         correct_count INT DEFAULT 0,
@@ -45,6 +46,7 @@ const pool = require('./database');
         question_id VARCHAR(50),
         choice_label VARCHAR(10),
         is_correct BOOLEAN,
+        UNIQUE KEY unique_answer (session_id, question_id)
         FOREIGN KEY (session_id) REFERENCES practice_sessions(id) ON DELETE CASCADE
       )
     `);

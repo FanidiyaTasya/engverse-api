@@ -12,14 +12,16 @@ const practiceHandler = {
 
       const allData = loadQuestions(section);
       const allQuestions = allData.questions;
-      const questions = allQuestions.sort(() => Math.random() - 0.5).slice(0, 10);
+
+      const selectedQuestions = allQuestions.sort(() => Math.random() - 0.5).slice(0, 10);
+      const questionIds = selectedQuestions.map((q) => q.id);
 
       const sessionId = nanoid();
       const startedAt = new Date().toISOString().slice(0, 19).replace('T', ' ');
 
       await pool.execute(
-        'INSERT INTO practice_sessions (id, user_id, section, started_at) VALUES (?, ?, ?, ?)',
-        [sessionId, userId, section, startedAt]
+        'INSERT INTO practice_sessions (id, user_id, section, started_at, question_ids) VALUES (?, ?, ?, ?, ?)',
+        [sessionId, userId, section, startedAt, JSON.stringify(questionIds)]
       );
 
       return h.response({
@@ -30,7 +32,6 @@ const practiceHandler = {
           userId,
           startedAt,
           section,
-          questions,
         }
       });
     } catch (error) {
@@ -41,6 +42,59 @@ const practiceHandler = {
         detail: error.message,
       }).code(500);
     }
+  },
+
+  getPracticeSession: async (request, h) => {
+    const { sessionId } = request.params;
+    const [rows] = await pool.execute(
+      'SELECT section, question_ids, submitted_at FROM practice_sessions WHERE id = ?',
+      [sessionId]
+    );
+
+    if (!rows.length) {
+      return h
+        .response({
+          status: 'fail',
+          message: 'Sesi tidak ditemukan',
+        })
+        .code(404);
+    }
+
+    const { section, question_ids: questionIdsRaw, submitted_at: submittedAt } = rows[0];
+    const questionIds = JSON.parse(questionIdsRaw);
+    const allQuestions = loadQuestions(section).questions;
+
+    const [answerRows] = await pool.execute(
+      'SELECT question_id, choice_label FROM user_answer WHERE session_id = ?',
+      [sessionId]
+    );
+
+    const userAnswers = {};
+    for (const row of answerRows) {
+      userAnswers[row.question_id] = row.choice_label;
+    }
+
+    const questions = questionIds
+      .map((id) => {
+        const question = allQuestions.find((q) => q.id === id);
+        if (!question) return null;
+
+        return {
+          ...question,
+          userAnswer: userAnswers[`${section}-${id}`] || null,
+        };
+      })
+      .filter(Boolean);
+
+    return h.response({
+      status: 'success',
+      data: {
+        sessionId,
+        section,
+        submittedAt: submittedAt,
+        questions,
+      },
+    });
   },
 
   submitAnswer: async (request, h) => {
@@ -81,8 +135,11 @@ const practiceHandler = {
 
       await pool.execute(
         `INSERT INTO user_answer (id, session_id, question_id, choice_label, is_correct)
-         VALUES (?, ?, ?, ?, ?)`,
-        [answerId, sessionId, questionId, choiceLabel, isCorrect ? 1 : 0] // ini typo, harusnya isCorrect
+        VALUES (?, ?, ?, ?, ?)
+        ON DUPLICATE KEY UPDATE
+          choice_label = VALUES(choice_label),
+          is_correct = VALUES(is_correct)`,
+        [answerId, sessionId, questionId, choiceLabel, isCorrect ? 1 : 0]
       );
 
       return h.response({
@@ -132,7 +189,7 @@ const practiceHandler = {
       console.error(error);
       return h.response({ status: 'error', message: 'Gagal submit sesi latihan' }).code(500);
     }
-  },
+  }
 };
 
 module.exports = practiceHandler;

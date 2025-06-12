@@ -19,14 +19,17 @@ const routes = [
     handler: usersHandler.logout,
   },
   {
-    method: 'GET',
-    path: '/',
-    handler: () => ({ message: 'Halo dari backend di Railway!' }),
-  },
-  {
     method: 'POST',
     path: '/practice/{section}',
     handler: practiceHandler.startPracticeSession,
+    options: {
+      pre: [authMiddleware],
+    }
+  },
+  {
+    method: 'GET',
+    path: '/practice/{sessionId}',
+    handler: practiceHandler.getPracticeSession,
     options: {
       pre: [authMiddleware],
     }
@@ -41,7 +44,7 @@ const routes = [
   },
   {
     method: 'POST',
-    path: '/practice/submit-session',
+    path: '/submit',
     options: {
       pre: [authMiddleware],
     },
